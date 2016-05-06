@@ -6,7 +6,8 @@ python:
 install:
   - pip install pylint
   
-script: nosetests
+script:
+  - nosetests
 
 after_success:
   - python <(curl -s https://raw.githubusercontent.com/TouK/sputnik-ci/master/sputnik-ci.py)
