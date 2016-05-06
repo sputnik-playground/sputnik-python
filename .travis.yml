@@ -1,0 +1,12 @@
+language: python
+
+python:
+  - "3.5"
+ 
+install:
+  - pip install pylint
+  
+script: nosetests
+
+after_success:
+  - python <(curl -s https://raw.githubusercontent.com/TouK/sputnik-ci/master/sputnik-ci.py)
