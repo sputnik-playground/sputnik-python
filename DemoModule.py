@@ -2,9 +2,15 @@
 
 
 def nice_function(value):
+    xxx = 115
     return value**2
 
+
+def bad_code(bar):
+    foo = bar*2
+    return foo
 
 if __name__ == "__main__":
     print("Hello Sputnik!")
     print(nice_function(5))
+    print(bad_code(10)) 
