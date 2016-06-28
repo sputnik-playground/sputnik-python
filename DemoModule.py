@@ -7,7 +7,6 @@ def nice_function(value):
 
 def bad_code(bar):
     foo = bar*2
-    xyz = 500
     return foo
 
 if __name__ == "__main__":
