@@ -2,6 +2,7 @@
 
 
 def nice_function(value):
+    xxx = 115
     return value**2
 
 
